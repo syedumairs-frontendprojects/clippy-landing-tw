@@ -4,8 +4,8 @@
   "description": "Landing page for clippy, a clipboard manager",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
-    "build": "tailwindcss -i ./input.css -o ./css/style.css"
+    "watch": "tailwindcss -i ./input.css -o dist/css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o dist/css/style.css"
   },
   "author": "Syed Umair Ali",
   "license": "MIT",
